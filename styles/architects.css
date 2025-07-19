@@ -5,3 +5,67 @@
   font-weight: 400px;
   font-style: normal;
 }
+
+/* shared styles */
+
+.display-flex{
+    display: flex;
+}
+
+.bg-light{
+    background-color: antiquewhite;
+}
+
+.nav-item{
+list-style: none;
+margin-right: 30px;
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.nav-link{
+    text-decoration: none;
+}
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar, .banner{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.banner-content{
+    width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-weight: 700px;
+    font-size: 4rem;
+}
+.btn-primary{
+    background-color: chocolate;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.banner-image{
+    width: 100%;
+
+}
+
+/* Responsive median query */
+
+@media screen and ( max-width: 576px) {
+    .nav-bar, .nav-links{
+        flex-direction: column;
+    }
+    
+}
